@@ -36,5 +36,3 @@ Move the csv to chicago_crime_viz/datatemp/crimes.csv
 `npm start`
 
 You can see the result at [http://localhost:3000](http://localhost:3000).
-
-Thank you!
