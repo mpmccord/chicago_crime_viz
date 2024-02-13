@@ -29,6 +29,8 @@ Move the csv to chicago_crime_viz/datatemp/crimes.csv
 
 # Running this Program
 
+`cd chicago_crime_viz`
+
 `npm install`
 
 `npm start`
