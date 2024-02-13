@@ -16,11 +16,11 @@ In the meantime, here are instructions for running it locally on your machine.
 ## Clone the Repository
 -  `git clone https://github.com/mpmccord/chicago_crime_viz.git`
 
-Or download the repository [here](https://github.com/mpmccord/chicago_crime_viz/archive/refs/heads/main.zip)
+Or download the repository [here](https://github.com/mpmccord/chicago_crime_viz/archive/refs/heads/main.zip).
 
 ##  Get data as a csv
 
-The dataset can be found [here](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data)
+The dataset can be found [here](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data).
 
 Choose the CSV option under Export.
 
@@ -35,6 +35,6 @@ Move the csv to chicago_crime_viz/datatemp/crimes.csv
 
 `npm start`
 
-You can see the result at [http://localhost:3000](http://localhost:3000)
+You can see the result at [http://localhost:3000](http://localhost:3000).
 
 Thank you!
