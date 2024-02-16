@@ -1,9 +1,9 @@
-import {createBrowserRouter} from "react-router-dom";
+import {createHashRouter} from "react-router-dom";
 import {Root} from "./Root";
 import {NoMatch} from "./NoMatch";
 import {Home, TestPage, MyVariableTables} from "../pages";
 import {Navigate} from "react-router-dom";
-export const MyRouter = createBrowserRouter([
+export const MyRouter = createHashRouter([
     {
         path: "/",
         element: <Navigate to="/chicago_crime_viz" replace/>,

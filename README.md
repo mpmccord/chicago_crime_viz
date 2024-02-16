@@ -4,9 +4,9 @@ Hello, and welcome! The purpose of this repository is to visualize the Chicago C
 Due to the size of the dataset (~8 million rows), the GitHub repository does not actually include the dataset, which can be found [here](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data).
 
 # Running This Program
-The website will be available soon. Check back later for the link.
+You can view the website [here](mpmccord.github.io/chicago_crime_viz).
 
-In the meantime, here are instructions for running it locally on your machine.
+Here are instructions for running it locally on your machine.
 
 ## Prerequisites
 
