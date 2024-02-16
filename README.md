@@ -3,6 +3,13 @@
 Hello, and welcome! The purpose of this repository is to visualize the Chicago Crime dataset.
 Due to the size of the dataset (~8 million rows), the GitHub repository does not actually include the dataset, which can be found [here](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data).
 
+##  Work Completed Thus Far
+
+1.  Navigation to 3 Distinct Pages
+![Home Page](..%2F..%2FScreenshot%202024-02-16%20at%205.29.39%E2%80%AFPM.png)
+![Example Page](..%2F..%2FScreenshot%202024-02-16%20at%205.29.20%E2%80%AFPM.png)
+![Dataset Table Page](..%2F..%2FScreenshot%202024-02-16%20at%205.29.28%E2%80%AFPM.png)
+2.  Templates for Specific Routes
 # Running This Program
 You can view the website [here](mpmccord.github.io/chicago_crime_viz).
 
