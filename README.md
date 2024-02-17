@@ -6,12 +6,12 @@ Due to the size of the dataset (~8 million rows), the GitHub repository does not
 ##  Work Completed Thus Far
 
 1.  Navigation to 3 Distinct Pages
-![Home Page](..%2F..%2FScreenshot%202024-02-16%20at%205.29.39%E2%80%AFPM.png)
-![Example Page](..%2F..%2FScreenshot%202024-02-16%20at%205.29.20%E2%80%AFPM.png)
-![Dataset Table Page](..%2F..%2FScreenshot%202024-02-16%20at%205.29.28%E2%80%AFPM.png)
+![Home Page](src/media/Screenshot 2024-02-16 at 5.29.20 PM.png)
+![Example Page](src/media/Screenshot 2024-02-16 at 5.29.28 PM.png)
+![Dataset Table Page](src/media/Screenshot 2024-02-16 at 5.29.39 PM.png)
 2.  Templates for Specific Routes
 # Running This Program
-You can view the website [here](mpmccord.github.io/chicago_crime_viz).
+You can view the website [here](https://mpmccord.github.io/chicago_crime_viz).
 
 Here are instructions for running it locally on your machine.
 

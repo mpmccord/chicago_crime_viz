@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Cat1 from '../media/cats/00000001_000.jpg';
 import Cat2 from '../media/cats/00000001_008.jpg';
 import Cat3 from '../media/cats/00000001_005.jpg';
 export function ExamplePage() {
