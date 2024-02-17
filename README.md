@@ -36,12 +36,10 @@ Or download the repository [here](https://github.com/mpmccord/chicago_crime_viz/
 You can see the result at [http://localhost:3000](http://localhost:3000).
 
 
-#  How to Get the Dataset (not currently needed)
-##  Get data as a csv
+#  Future Content
+
+## Dataset
 
 The dataset can be found [here](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data).
 
 Choose the CSV option under Export.
-
-##  Extract dataset to data_temp
-Move the csv to chicago_crime_viz/datatemp/crimes.csv
