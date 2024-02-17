@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/chicago_crime_viz/static/css/main.ca99b1ee.css",
-    "main.js": "/chicago_crime_viz/static/js/main.339d15c5.js",
-    "static/media/00000001_000.jpg": "/chicago_crime_viz/static/media/00000001_000.fc70b5ef1e4a9cf1de4f.jpg",
+    "main.js": "/chicago_crime_viz/static/js/main.2b320dbc.js",
     "static/media/00000001_005.jpg": "/chicago_crime_viz/static/media/00000001_005.c13744de7c9b22d5e667.jpg",
     "static/media/00000001_008.jpg": "/chicago_crime_viz/static/media/00000001_008.cc0359b1cdbd6fe01d17.jpg",
     "index.html": "/chicago_crime_viz/index.html",
     "main.ca99b1ee.css.map": "/chicago_crime_viz/static/css/main.ca99b1ee.css.map",
-    "main.339d15c5.js.map": "/chicago_crime_viz/static/js/main.339d15c5.js.map"
+    "main.2b320dbc.js.map": "/chicago_crime_viz/static/js/main.2b320dbc.js.map"
   },
   "entrypoints": [
     "static/css/main.ca99b1ee.css",
-    "static/js/main.339d15c5.js"
+    "static/js/main.2b320dbc.js"
   ]
 }
