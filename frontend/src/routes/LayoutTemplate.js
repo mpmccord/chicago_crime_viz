@@ -7,20 +7,16 @@ import {Container, Col, Row} from "react-bootstrap";
 export function LayoutTemplate() {
   return (
     <>
-    <Container fluid="xxl">
-      <Row className='g0'>
-        <Col className='g0'>
-        <TemplateTopbar />
-        </Col>
-      </Row>
-    <Row className='g0'>
-      <Col className='g0'><MySideNav /></Col>
-      <Col><Outlet /></Col>
-    </Row>
-    
-        
-    </Container>
+    <div id="wrapper">
+    <MySideNav />
+    <div id="content-wrapper" className="d-flex flex-column">
 
+    <TemplateTopbar/>
+            <div id="content">
+            <Outlet />
+            </div>
+    </div>
+    </div>
 
   </>
   );

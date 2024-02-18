@@ -1,5 +1,5 @@
 import React, { useState, useContext, createContext} from 'react';
-import { LinkContainer } from 'react-router-bootstrap';
+import {IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import { GiPoliceOfficerHead } from "react-icons/gi";
 import {FaFolder, FaCog, FaWrench, FaChartArea, FaTable, FaSmileWink, FaChartLine, FaChartBar, FaCity, FaCat} from "react-icons/fa";
@@ -20,22 +20,24 @@ function changeIcon(myIcon) {
 }
 export function MySideNav() {
     return (
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        
+        <>
+                <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
             <LinkContainer to="/">
             <div className="sidebar-brand d-flex align-items-center justify-content-center">
             <div className="sidebar-brand-icon rotate-n-15">
                 <FaCity/>
             </div>
-            <div class="sidebar-brand-text mx-3">Crime in Chicago</div>
+            <div className="sidebar-brand-text mx-3">Crime in Chicago</div>
         </div>
-            </LinkContainer>
+            </LinkContainer >
             <hr className="sidebar-divider" />
             <div className="sidebar-heading">Overview</div>
-            <LinkContainer to="/">
-                    <Nav.Link> <GiPoliceOfficerHead/> {"Home"}</Nav.Link>
+            <LinkContainer  to="/">
+                <Nav.Link> <GiPoliceOfficerHead/> {"Home"}</Nav.Link>
                 </LinkContainer>
-                <LinkContainer to="dataset">
-                    <Nav.Link> <FaTable/> {"Datasets"}</Nav.Link>
+                <LinkContainer to="datasets">
+                <Nav.Link> <FaTable/> {"Datasets"}</Nav.Link>
                 </LinkContainer>
             <hr className="sidebar-divider"></hr>
             <div className="sidebar-heading">Pages</div>
@@ -44,6 +46,8 @@ export function MySideNav() {
                 </LinkContainer>
             <hr className="sidebar-divider d-none d-md-block" />
         </ul>
+        </>
+
     );
 }
 

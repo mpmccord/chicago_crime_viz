@@ -22,7 +22,7 @@ export const MyRouter = createHashRouter([
                 element: <TestPage />
             },
             {
-                path: "dataset",
+                path: "datasets",
                 element: <MyVariableTables/>
             },
         ],
