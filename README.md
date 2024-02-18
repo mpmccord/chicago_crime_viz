@@ -47,3 +47,7 @@ You can see the result at [http://localhost:3000](http://localhost:3000).
 The dataset can be found [here](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data).
 
 Choose the CSV option under Export.
+
+#  Acknowledgements
+
+The dashboard design is built on the Bootstrap template [SB Admin 2](https://startbootstrap.com/theme/sb-admin-2).
