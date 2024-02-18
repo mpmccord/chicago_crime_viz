@@ -1,4 +1,3 @@
-import {VizNavigation as MyNavbar} from "../routes/VizNavigation";
 import Container from "react-bootstrap/Container";
 import { LoremIpsum } from "react-lorem-ipsum";
 export function MainPageContent() {
