@@ -95,7 +95,7 @@ export function MainPageContent() {
 <div className="row">
 
     
-    <div className="col-xl-8 col-lg-7">
+    <div className="col">
         <div className="card shadow mb-4">
             
             <div
@@ -110,15 +110,15 @@ export function MainPageContent() {
             </div>
             
             <div className="card-body">
-                <div className="svg-container chart-tree">
-                   <LineChart width={/* dimensions.width*/400} height={/*dimensions.height*/500}/>
+                <div className="svg-container chart-tree pt-4 pb-2">
+                    <LineChart width={/* dimensions.width*/400} height={/*dimensions.height*/300}/><LineChart width={/* dimensions.width*/275} height={/*dimensions.height*/300}/>
                 </div>
             </div>
         </div>
     </div>
 
     
-    <div className="col-xl-4 col-lg-5">
+    <div className="col">
         <div className="card shadow mb-4">
             
             <div
@@ -127,8 +127,8 @@ export function MainPageContent() {
             </div>
             
             <div className="card-body">
-                <div className="chart-tree pt-4 pb-2">
-                    <TreeMap width={/* dimensions.width*/275} height={/*dimensions.height*/300}/>
+                <div className="chart-tree svg-container pt-2 pb-2">
+                    <TreeMap width={/* dimensions.width*/400} height={/*dimensions.height*/300}/>
                 </div>
             </div>
         </div>

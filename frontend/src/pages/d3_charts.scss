@@ -1,11 +1,4 @@
-.svg {
-    height: 100%;
-    width: 100%;
-    margin: 10px;
-}
-.g-xlabel {
-    
-}
-.g-ylabel {
-    
-}
+svg {
+    transform:scale(2.0);
+    -webkit-transform:scale(2.0);
+  }
