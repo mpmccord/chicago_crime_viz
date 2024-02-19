@@ -1,7 +1,7 @@
 import {createHashRouter} from "react-router-dom";
 import {Root} from "./Root";
 import {NoMatch} from "./NoMatch";
-import {Home, TestPage, MyVariableTables} from "../pages";
+import {Home, TestPage, MyVariableTables, IncomeRelatedVariables} from "../pages";
 import {Navigate} from "react-router-dom";
 export const MyRouter = createHashRouter([
     {
@@ -25,6 +25,10 @@ export const MyRouter = createHashRouter([
                 path: "datasets",
                 element: <MyVariableTables/>
             },
+            {
+                path: "placeholder",
+                element: <IncomeRelatedVariables/>
+            }
         ],
     },
     {

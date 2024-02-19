@@ -2,24 +2,11 @@
 //import { Row } from "react-bootstrap";
 //import { LoremIpsum } from "react-lorem-ipsum";
 import React from "react";
-import {useRef, useState, useEffect} from "react";
 import { FaEllipsisH } from "react-icons/fa";
 import { TreeMap } from "./TreeMap";
 import { LineChart } from "./LineChart";
-export function MainPageContent() {
-    const refContainer = useRef();
-    const [dimensions, setDimensions] = useState({
-        width: 0,
-        height: 0,
-    });
-    useEffect(() => {
-        if (refContainer.current) {
-            setDimensions({
-                width: refContainer.current.offsetWidth,
-                height: refContainer.current.offsetHeight,
-            });
-        }
-    }, []);
+export function VizLayout() {
+
     return (
         <>
         <div className="container-fluid">
@@ -110,8 +97,8 @@ export function MainPageContent() {
             </div>
             
             <div className="card-body">
-                <div className="svg-container chart-tree">
-                   <LineChart width={dimensions.width} height={dimensions.height}/>
+                <div className="chart-tree">
+                   <LineChart width={500} height={350}/>
                 </div>
             </div>
         </div>
@@ -128,7 +115,7 @@ export function MainPageContent() {
             
             <div className="card-body">
                 <div className="chart-tree pt-4 pb-2">
-                    <TreeMap/>
+                    <TreeMap width={350} height={250}/>
                 </div>
             </div>
         </div>

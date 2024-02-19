@@ -52,7 +52,7 @@ export const LineChart = ({ width, height }) => {
   
     return (
       <div>
-        <svg width={width} height={height} viewBox="0 0 {width} {height}">
+        <svg width={width} height={height} preserveAspectRatio="xMidYMid meet" viewBox="0 0 {width} {height}">
           <g
             width={boundsWidth}
             height={boundsHeight}

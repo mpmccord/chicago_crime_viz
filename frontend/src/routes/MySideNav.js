@@ -2,7 +2,7 @@ import React, { useState, useContext, createContext} from 'react';
 import {IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import { GiPoliceOfficerHead } from "react-icons/gi";
-import {FaFolder, FaCog, FaWrench, FaChartArea, FaTable, FaSmileWink, FaChartLine, FaChartBar, FaCity, FaCat} from "react-icons/fa";
+import {FaFolder, FaCog, FaWrench, FaChartArea, FaTable, FaSmileWink, FaChartLine, FaChartBar, FaCity, FaCat, FaMoneyBill} from "react-icons/fa";
 import { NavItem } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { IconContext } from 'react-icons';
@@ -43,6 +43,9 @@ export function MySideNav() {
             <div className="sidebar-heading">Pages</div>
             <LinkContainer to="example-page">
                     <Nav.Link> <FaCat/> {"Cat Example"}</Nav.Link>
+                </LinkContainer>
+                <LinkContainer to="placeholder">
+                    <Nav.Link> <FaMoneyBill/> {"Placeholder"}</Nav.Link>
                 </LinkContainer>
             <hr className="sidebar-divider d-none d-md-block" />
         </ul>
