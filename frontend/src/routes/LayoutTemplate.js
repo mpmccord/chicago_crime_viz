@@ -1,9 +1,8 @@
 import React from 'react'
-import { AppContent, AppSidebar, AppFooter, AppHeader } from '../components/index'
+import { MyFooter } from '../components/MyFooter';
 import { MySideNav } from './MySideNav'
 import { TemplateTopbar } from './TemplateTopbar'
 import { Outlet } from 'react-router-dom'
-import {Container, Col, Row} from "react-bootstrap";
 export function LayoutTemplate() {
   return (
     <>
@@ -14,7 +13,9 @@ export function LayoutTemplate() {
     <TemplateTopbar/>
             <div id="content">
             <Outlet />
+
             </div>
+            <MyFooter/>
     </div>
     </div>
 
