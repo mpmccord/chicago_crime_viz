@@ -8,6 +8,27 @@ export function CrimesSince2001Documentation() {
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+    <thead>
+        <tr>
+            <td>
+                Variable
+            </td>
+            <td>
+                Description
+            </td>
+        </tr>
+    </thead>
+    <tfoot>
+    <tr>
+            <td>
+                Variable
+            </td>
+            <td>
+                Description
+            </td>
+        </tr>
+    </tfoot>
+    <tbody>
     <tr>
         <td>ID</td>
         <td>Unique identifier for the record.</td>
@@ -96,7 +117,8 @@ export function CrimesSince2001Documentation() {
         <td>Location</td>
         <td>The location of the incident.</td>
     </tr>
-</table>
+    </tbody>
+    </table>
     </div>
     </div>
     </div>
