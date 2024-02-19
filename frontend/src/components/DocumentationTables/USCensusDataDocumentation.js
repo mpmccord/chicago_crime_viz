@@ -7,7 +7,7 @@ This is the documentation for the US Census API variables.
 Downloaded from their website and reformatted according to my needs.
 */
     <>
-     <div class="card shadow mb-4">
+             <div class="card shadow mb-4">
                         <div class="card-header py-3">
                             <h6 class="m-0 font-weight-bold text-primary">Columns in the Census Dataset</h6>
                         </div>
@@ -15,21 +15,15 @@ Downloaded from their website and reformatted according to my needs.
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
     <thead>
+        <tr>
         <td>Name</td>
         <td>Label</td>
         <td>Concept</td>
         <td>Required</td>
         <td>Limit</td>
         <td>Predicate Type</td>
+        </tr>
     </thead>
-    <tfoot>
-        <td>Name</td>
-        <td>Label</td>
-        <td>Concept</td>
-        <td>Required</td>
-        <td>Limit</td>
-        <td>Predicate Type</td>
-    </tfoot>
     <tbody>
     <tr>
         <td>BIRTHS</td>

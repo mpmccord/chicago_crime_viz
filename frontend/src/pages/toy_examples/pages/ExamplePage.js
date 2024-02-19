@@ -11,9 +11,9 @@ export function ExamplePage() {
       <div id="cat-output-demonstration">
         <Container fluid>
           <Row>
-            <Col xs={6} md={4}><Image src={Cat2} alt="Cat" thumbnail/>;</Col>
+            <Col xs={6} md={4}><Image src={Cat1} alt="Cat" thumbnail/></Col>
+              <Col xs={6} md={4}><Image src={Cat2} alt="Cat" thumbnail/></Col>
               <Col xs={6} md={4}><Image src={Cat3} alt="Cat" thumbnail/></Col>
-              <Col xs={6} md={4}><Image src={Cat1} alt="Cat" thumbnail/></Col>
           </Row>
         </Container>
       </div>
