@@ -111,7 +111,7 @@ export function MainPageContent() {
             
             <div className="card-body">
                 <div className="svg-container chart-tree">
-                   <LineChart width={dimensions.width} height={dimensions.height}/>
+                   <LineChart width={/* dimensions.width*/400} height={/*dimensions.height*/500}/>
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@ export function MainPageContent() {
             
             <div className="card-body">
                 <div className="chart-tree pt-4 pb-2">
-                    <TreeMap/>
+                    <TreeMap width={/* dimensions.width*/275} height={/*dimensions.height*/300}/>
                 </div>
             </div>
         </div>
