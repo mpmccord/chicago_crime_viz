@@ -1,8 +1,13 @@
 import { Table } from 'react-bootstrap';
 export function CrimesSince2001Documentation() {
-  return (
-    <>
-<Table striped bordered hover>
+    return (
+        <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Columns in the Crimes Dataset</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
     <tr>
         <td>ID</td>
         <td>Unique identifier for the record.</td>
@@ -91,8 +96,10 @@ export function CrimesSince2001Documentation() {
         <td>Location</td>
         <td>The location of the incident.</td>
     </tr>
-</Table>
-    </>
+</table>
+    </div>
+    </div>
+    </div>
   );
 }
 
