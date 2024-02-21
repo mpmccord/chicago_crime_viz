@@ -41,9 +41,6 @@ export function MySideNav() {
                 </LinkContainer>
             <hr className="sidebar-divider"></hr>
             <div className="sidebar-heading">Pages</div>
-            <LinkContainer to="example-page">
-                    <Nav.Link> <FaCat/> {"Cat Example"}</Nav.Link>
-                </LinkContainer>
                 <LinkContainer to="placeholder">
                     <Nav.Link> <FaMoneyBill/> {"Placeholder"}</Nav.Link>
                 </LinkContainer>
