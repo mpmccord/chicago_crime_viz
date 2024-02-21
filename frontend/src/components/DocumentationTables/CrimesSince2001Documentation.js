@@ -1,4 +1,3 @@
-import { Table } from 'react-bootstrap';
 export function CrimesSince2001Documentation() {
     return (
         <div class="card shadow mb-4">

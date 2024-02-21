@@ -1,4 +1,3 @@
-import { Table } from 'react-bootstrap';
 export function USCensusDataDocumentation() {
   return (
 /*
