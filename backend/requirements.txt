@@ -1,0 +1,9 @@
+boto3==1.28.64
+census==0.8.2
+Flask==2.2.5
+geopandas==0.14.2
+matplotlib==3.8.0
+pandas==2.2.1
+pyspark==3.4.1
+python-dotenv==1.0.1
+us==3.1.1
