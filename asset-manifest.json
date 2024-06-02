@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chicago_crime_viz/static/css/main.b140daec.css",
-    "main.js": "/chicago_crime_viz/static/js/main.b12c85dd.js",
+    "main.css": "/chicago_crime_viz/static/css/main.49797f61.css",
+    "main.js": "/chicago_crime_viz/static/js/main.eda66bba.js",
     "static/media/00000110_003.jpg": "/chicago_crime_viz/static/media/00000110_003.54b9f505fb18d21fbba3.jpg",
     "static/media/00000001_005.jpg": "/chicago_crime_viz/static/media/00000001_005.c13744de7c9b22d5e667.jpg",
     "static/media/00000001_008.jpg": "/chicago_crime_viz/static/media/00000001_008.cc0359b1cdbd6fe01d17.jpg",
     "index.html": "/chicago_crime_viz/index.html",
-    "main.b140daec.css.map": "/chicago_crime_viz/static/css/main.b140daec.css.map",
-    "main.b12c85dd.js.map": "/chicago_crime_viz/static/js/main.b12c85dd.js.map"
+    "main.49797f61.css.map": "/chicago_crime_viz/static/css/main.49797f61.css.map",
+    "main.eda66bba.js.map": "/chicago_crime_viz/static/js/main.eda66bba.js.map"
   },
   "entrypoints": [
-    "static/css/main.b140daec.css",
-    "static/js/main.b12c85dd.js"
+    "static/css/main.49797f61.css",
+    "static/js/main.eda66bba.js"
   ]
 }
